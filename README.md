@@ -1,5 +1,4 @@
 # CL2IGNN
-# Model
 
 Code for the technical report [].
 
