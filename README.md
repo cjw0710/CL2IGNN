@@ -31,8 +31,8 @@ pip install -r requirements.txt
 
 ### Run the Code
 cd CLGNN-main
-To reproduce the results on the Cora dataset, input:
-    `` python main_rphgnn.py  --dataset "cora" --method "rphgnn" --use_nrl False --use_label False --even_odd "all"  --train_strategy "cl" --use_input True --input_drop_rate 0.0 --drop_rate 0.7 --hidden_size 256 --squash_k 3 --num_epochs 5000 --max_patience 60 --embedding_size 512 --use_all_feat True --output_dir "outputs/citeseer/" --gpus 0 --seed 7 ``
+To reproduce the results on the Citeseer dataset, input:
+    `` python main_rphgnn.py  --dataset "citeseer" --method "rphgnn" --use_nrl False --use_label False --even_odd "all"  --train_strategy "cl" --use_input True --input_drop_rate 0.0 --drop_rate 0.5 --hidden_size 256 --squash_k 3 --num_epochs 5000 --max_patience 50 --embedding_size 512 --use_all_feat True --output_dir "outputs/citeseer/" --gpus 0 --seed 7 ``
 
 ## License
 
